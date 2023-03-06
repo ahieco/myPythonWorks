@@ -1,0 +1,188 @@
+Delivered-To: anpartec@gmail.com
+Received: by 10.216.58.195 with SMTP id q45csp11899wec;
+        Thu, 10 Oct 2013 00:01:27 -0700 (PDT)
+X-Received: from mr.google.com ([10.50.106.20])
+        by 10.50.106.20 with SMTP id gq20mr6084640igb.36.1381388487745 (num_hops = 1);
+        Thu, 10 Oct 2013 00:01:27 -0700 (PDT)
+X-Received: by 10.50.106.20 with SMTP id gq20mr5292138igb.36.1381388487267;
+        Thu, 10 Oct 2013 00:01:27 -0700 (PDT)
+X-Forwarded-To: fanghejun@hotmail.com, anpartec@gmail.com, fanghejun@189.cn
+X-Forwarded-For: fanghejun@gmail.com fanghejun@hotmail.com, anpartec@gmail.com, fanghejun@189.cn
+Delivered-To: fanghejun@gmail.com
+Received: by 10.42.151.6 with SMTP id c6csp29796icw;
+        Thu, 10 Oct 2013 00:01:26 -0700 (PDT)
+X-Received: by 10.66.140.40 with SMTP id rd8mr13917066pab.119.1381388486516;
+        Thu, 10 Oct 2013 00:01:26 -0700 (PDT)
+Return-Path: <fanghejun@gmail.com>
+Received: from mail-pa0-x236.google.com (mail-pa0-x236.google.com [2607:f8b0:400e:c03::236])
+        by mx.google.com with ESMTPS id rz6si34276589pab.133.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 10 Oct 2013 00:01:26 -0700 (PDT)
+Received-SPF: pass (google.com: domain of fanghejun@gmail.com designates 2607:f8b0:400e:c03::236 as permitted sender) client-ip=2607:f8b0:400e:c03::236;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of fanghejun@gmail.com designates 2607:f8b0:400e:c03::236 as permitted sender) smtp.mail=fanghejun@gmail.com;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-pa0-f54.google.com with SMTP id kx10so2274624pab.13
+        for <multiple recipients>; Thu, 10 Oct 2013 00:01:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=message-id:date:from:user-agent:mime-version:to:subject:references
+         :in-reply-to:content-type:content-transfer-encoding;
+        bh=Uk+HMTy7E0mVbXxMAJBdh4yQCs1vZLh+XY+2HIeS0bs=;
+        b=lPTUIuUrKSgPg24YAwULbVbAhnVZp+vr3A9GuyTa45ble7+qc5BRr/m+DBlJOqL+qR
+         qOISpyTnTNi69OgxkFPhj3V6b8Q1ZZWrCiuoO6k8Pccod0uCdaJHDV5DLxIhrh+/sGfi
+         ajLk9sbpkaSfPJp1+3CHiwlP89B4srA4ca22BmghF8hYTuz7cDFcqVpk6WgiLBl/coej
+         I6+rVITfaGyt+09J09ik3LvDIsebxxTJffDEQqtEyhzXcBNY/aACIvrgvmvCKYKFsKnP
+         1EHB9clbshMLBX0z2d0rU5acuqTWRN+HplPGhxE9qCmI2HnPKdZ4fRrq47fctMT0gDxG
+         DY9Q==
+X-Received: by 10.68.194.163 with SMTP id hx3mr12115942pbc.125.1381388485813;
+        Thu, 10 Oct 2013 00:01:25 -0700 (PDT)
+Return-Path: <fanghejun@gmail.com>
+Received: from [192.168.1.101] ([61.191.26.153])
+        by mx.google.com with ESMTPSA id lm2sm60172018pab.2.1969.12.31.16.00.00
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 10 Oct 2013 00:01:24 -0700 (PDT)
+Message-ID: <525650B8.3020509@gmail.com>
+Date: Thu, 10 Oct 2013 15:01:12 +0800
+From: Fang He Jun <fanghejun@gmail.com>
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:17.0) Gecko/20130801 Thunderbird/17.0.8
+MIME-Version: 1.0
+To: DOMPLEX - <domplexro@gmail.com>
+Subject: Re: mark
+References: <4894A5F27FD8447E966335622CD416BA@8.0.2>   <EAF19A778BC24945877A0B7469E18098@8.0.3> <825509312947481F8D48106B074EA452@buffy> <BF97DC329AAA4ACE98C5CD8744D2D2E0@thinkpadt400> <7F4F3DF0BE7042959BAD37095582CBBA@buffy> <85FB0841E09744D39894ABB217C8BB82@8.0.3> <85ACCA0432564B2FAF4DE2E31889EC55@buffy> <08E0DBE2BD8C48A185B19607EB25E917@8.0.2> <660DD4F31BD048E1AF006E9F413940AD@buffy> <520494E5.2080705@gmail.com> <CADC7F4A736F4C90813F816D347B235B@buffy> <520DD8E1.3040201@gmail.com> <CBB0C613F34148B6A538369B522A1871@buffy> <5211AC59.6020804@gmail.com> <6FA4DFD9C14E452780694120849D393A@buffy> <52145D38.2090101@gmail.com> <53671CD68A684AE4B7C7BEF75BD0319B@buffy> <521DCCBB.3090801@gmail.com> <B5F297A75BCA4905B9A1C0564D461A7A@buffy> <6BD0262862F94F8EBF87F90347032DE4@8.0.2> <C60BA7415D784DF6B4C45320036B317E@buffy> <5244ED0D.2020103@gmail.com> <AE8B3641BFE84AD0852FB75EC32DE0E3@buffy> <52537B22.6030807@gmail.com> <A7AAC78AFF8E4C9FA7EB18D9256286A7@buffy>
+In-Reply-To: <A7AAC78AFF8E4C9FA7EB18D9256286A7@buffy>
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    <div id="smartTemplate4-template"></div>
+    Dear Adrian Busui,<br>
+    Good morning!<br>
+    The manufacture had been arranged.<br>
+    We are now remaining about 40~50 pcs of bodies (the frame) of the
+    product with old marks. Is it ok to use these items on the
+    manufacture showing the old marks"145S448*D-127"?<br>
+    We are looking forward to hearing from you.<br>
+    Best regards,<br>
+    Fang He Jun,<br>
+    <br>
+    <div id="smartTemplate4-quoteHeader">----- Original Message -----</div>
+    <blockquote cite="mid:A7AAC78AFF8E4C9FA7EB18D9256286A7@buffy"
+      type="cite">
+      <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+      <meta name="GENERATOR" content="MSHTML 8.00.6001.18702">
+      <div><font face="Arial">Dear Fang,</font></div>
+      <div> </div>
+      <div><font face="Arial">If you can not put UTB logo, please make
+          the mark like followings:</font></div>
+      <div><font face="Arial">UTB   0.832.281.024 </font></div>
+      <div><font face="Arial"> </font></div>
+      <div><font face="Arial">I will send you in few days the design of
+          carton. It will be very simple design.<br>
+           <br>
+          Best regards,<br>
+          Adrian Busui<br>
+           <br>
+           <br>
+          DOMPLEX - ROMANIA<br>
+          Tel: +40-722-487.329<br>
+          Fax: +40-257-272.878<br>
+          E-mail: </font><a moz-do-not-send="true"
+          href="mailto:office@domplex.ro"><font face="Arial">office@domplex.ro</font></a><br>
+        <font face="Arial">E-mail: </font><a moz-do-not-send="true"
+          href="mailto:domplexro@gmail.com"><font face="Arial">domplexro@gmail.com</font></a></div>
+      <blockquote style="BORDER-LEFT: #000000 2px solid; PADDING-LEFT:
+        5px; PADDING-RIGHT: 0px; MARGIN-LEFT: 5px; MARGIN-RIGHT: 0px">
+        <div style="FONT: 10pt arial">----- Original Message ----- </div>
+        <div style="FONT: 10pt arial; BACKGROUND: #e4e4e4; font-color:
+          black"><b>From:</b> <a moz-do-not-send="true"
+            title="fanghejun@gmail.com"
+            href="mailto:fanghejun@gmail.com">Fang He Jun</a> </div>
+        <div style="FONT: 10pt arial"><b>To:</b> <a
+            moz-do-not-send="true" title="domplexro@gmail.com"
+            href="mailto:domplexro@gmail.com">DOMPLEX -</a> </div>
+        <div style="FONT: 10pt arial"><b>Sent:</b> Tuesday, October 08,
+          2013 6:25 AM</div>
+        <div style="FONT: 10pt arial"><b>Subject:</b> Re: mark</div>
+        <div><br>
+        </div>
+        Dear Adrian Busui,<br>
+        <br>
+        Good morning! Wish all goes smoothly with you and your family.<br>
+        <br>
+        Sorry for reply late. We just come back to office from a long
+        vocation for Chinese National Day.<br>
+        <br>
+        We contact to our factory, we can only mark the number: <font
+          face="Arial">0.832.281.024 on the body of the product. It is
+          impossible to mark to picture on the body of the product.<br>
+          <br>
+          As for the carton, we can stick a label with the items you
+          requested on each carton. Is it ok?<br>
+          <br>
+          Please give us your opinion on above. <br>
+          We are looking forward to hearing from you.<br>
+          <br>
+          Best regards,<br>
+          Fang He Jun,<br>
+           <br>
+        </font>
+        <div id="smartTemplate4-quoteHeader">----- Original Message -----</div>
+        <blockquote cite="mid:AE8B3641BFE84AD0852FB75EC32DE0E3@buffy"
+          type="cite">
+          <meta name="GENERATOR" content="MSHTML 8.00.6001.18702">
+          <style></style>
+          <div><font face="Arial">Dear Fang,</font></div>
+          <div> </div>
+          <div><font face="Arial">I need injectors from my last order to
+              be under UTB brand. I need from you to mark on product UTB
+              logo and following number: 0.832.281.024. I send you in
+              attachment the design.</font></div>
+          <div><font face="Arial">On carton please put the logo and one
+              sticker with following text:</font></div>
+          <div> </div>
+          <div><font face="Arial">Injector U445</font></div>
+          <div>
+            <p style="MARGIN: 0cm 0cm 0pt" class="MsoNormal"><b><span
+                  style="FONT-FAMILY: Arial; mso-ansi-language: EN-US">Distribuitor
+                  autorizat:</span></b><span style="FONT-FAMILY: Arial;
+                mso-ansi-language: EN-US"><!--?xml:namespace prefix = o 
+ns = "urn:schemas-microsoft-com:office:office" /--><o:p></o:p></span></p>
+            <p style="MARGIN: 0cm 0cm 0pt" class="MsoNormal"><span
+                style="FONT-FAMILY: Arial; mso-ansi-language: EN-US">S.C.
+                Auto Group C.M.B. S.R.L.<o:p></o:p></span></p>
+            <p style="MARGIN: 0cm 0cm 0pt" class="MsoNormal"><span
+                style="FONT-FAMILY: Arial; mso-ansi-language: EN-US">Str.
+                Tr. Andreica nr. 2A <!--?xml:namespace prefix = st1 ns = 
+"urn:schemas-microsoft-com:office:smarttags" /--><st1:city w:st="on"><st1:place
+                    w:st="on">ARAD</st1:place></st1:city> <o:p></o:p></span></p>
+            <p style="MARGIN: 0cm 0cm 0pt" class="MsoNormal"><span
+                style="FONT-FAMILY: Arial; mso-ansi-language: EN-US">Tel/Fax:
+                0257-272.878 <o:p></o:p></span></p>
+          </div>
+          <div><font face="Arial"><br>
+               <br>
+              Best regards,<br>
+              Adrian Busui<br>
+               <br>
+               <br>
+              DOMPLEX - ROMANIA<br>
+              Tel: +40-722-487.329<br>
+              Fax: +40-257-272.878<br>
+              E-mail: </font><a href="mailto:office@domplex.ro"
+              moz-do-not-send="true"><font face="Arial">office@domplex.ro</font></a><br>
+            <font face="Arial">E-mail: </font><a
+              href="mailto:domplexro@gmail.com" moz-do-not-send="true"><font
+                face="Arial">domplexro@gmail.com</font></a></div>
+        </blockquote>
+        <br>
+      </blockquote>
+    </blockquote>
+    <br>
+  </body>
+</html>
